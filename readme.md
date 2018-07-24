@@ -1,9 +1,9 @@
-# [package-name]
+# redux-saga-app
 
 ```bash
-git clone path/to/[package-name].git
+git clone path/to/redux-saga-app.git
 
-cd [package-name]
+cd redux-saga-app
 
 npm install
 ```

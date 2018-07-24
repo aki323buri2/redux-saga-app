@@ -50,7 +50,5 @@
     , "bulma": "*"
     , "bulma-extensions": "*"
     , "@fortawesome/fontawesome-free": "*"
-
-    , "redux-saga-app": "file:../redux-saga-app"
   }
 }

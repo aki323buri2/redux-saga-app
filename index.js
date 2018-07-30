@@ -7,7 +7,7 @@ export const createApp = (App, reducers) =>
 {
 	const saga = createSaga();
 	const logger = createLogger({
-		predicate: (getState, action) => global.debug, 
+		predicate: (getState, action) => global.reduxLogger, 
 	}); 
 	const store = createStore(combineReducers(reducers), applyMiddleware(saga, logger));
 	const app = <Provider store={store}><App/></Provider>;
